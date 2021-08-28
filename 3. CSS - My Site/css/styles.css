@@ -1,0 +1,178 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  color: #66BFBF;
+  /* we use 'auto' cz we want the data to be centered */
+  /* using 'rem' the font size will not get effected by any external source of font-size */
+  /* 16px = 100% = 1em */
+  /* width: 10%;
+  margin: 0 auto 0 auto; */
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+hr {
+  border: 6px dotted;
+  border-bottom: 0px;
+  width: 4%;
+  color: red;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+.img-Profile {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+}
+
+.img-Sql {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.img-C {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  float: right;
+  margin-left: 30px;
+}
+
+.img-Python {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  float: left;
+  margin-right: 30px;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  position: relative;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 400px;
+  bottom: 300px;
+}
+
+.middle-Container {
+  margin: 100px 0;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.project {
+  text-decoration: underline;
+  background-color: yellow;
+}
+
+.profile {
+  margin-bottom: 100px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.contact-me {
+  width: 50%;
+  margin: auto;
+  margin-bottom: 70px;
+  margin-top: 80px;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family:  'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
+a{
+  color: red;
+  font-family:  'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none; /* to remove the underline from the anchor tag */
+}
+a:hover{
+  color: #eaf6f6;
+}
+.copyright{
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  margin: 20px 0;
+}
